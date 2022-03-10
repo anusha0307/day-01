@@ -1,0 +1,36 @@
+2.Write a blog on Difference between HTTP1.1 vs HTTP2
+
+Http1:
+->It is older version
+->It has a slow network connection
+->The data can be sent only once by the sender then the reciver can send the data. 
+->status bar were checked to know that they recived Or sended. 
+->The data can be sent by the sender if the reciver requests. 
+
+
+Http2:
+->It is new version (to overcome from http1) 
+->It has a much faster  network. 
+->added Multiplexing:The data can be sent several times at a same from both sides. 
+->The sender can send the at any time even though there is no request from the user reciver.
+
+
+
+
+3.Object and  it's internal representation. 
+Objects, in JavaScript, is  most important data-type. Objects are more complex. An object consists of primitive data types and reference data types. 
+
+Objects in JavaScript are defined as 
+Key:value
+Here key may be a variables or functions. 
+ 
+The property of an object is that a variable is attached to the object
+Ex:objectName.propertyName
+here the object name and property name are case sensitive. 
+we can Create an Object in  2 ways:
+1.By object literal
+Ex:
+Obj={property 1:value1, property 2:value2}
+2.By creating instance of Object  (using new keyword) 
+Ex:
+Let objname=new object()
